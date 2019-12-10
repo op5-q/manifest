@@ -122,7 +122,7 @@
 
   <!-- Vendor -->
   <project path="vendor/aosip" name="vendor_aosip" remote="bork" revision="ten"/>
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="bork" revision="ten" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
 
   <!-- DerpFest specific stuf -->
