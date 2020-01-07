@@ -108,12 +108,10 @@
   <!-- Platform -->
   <project path="platform_testing" name="platform_platform_testing" remote="aosip" />
 
-  <!-- Prebuilts -->
-  <project path="prebuilts/tools-aosip" name="platform_prebuilts_tools-aosip" remote="aosip" />
 
   <!-- System -->
-  <project path="system/bt" name="system_bt" remote="bork" revision="ten" />
-  <project path="system/core" name="platform_system_core" remote="derp" />
+  <project path="system/bt" name="system_bt" remote="aosip" />
+  <project path="system/core" name="platform_system_core" remote="bork" revision="ten" />
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
   <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="aosip" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
@@ -133,6 +131,8 @@
 
   <!-- PixelExperience GApps and Mods -->
   <project path="vendor/gapps" name="mTresk/vendor_gapps" remote="gitlab" revision="android-10" clone-depth="1" />
-  <project path="vendor/pixelstyle" name="platform_vendor_pixelstyle" remote="derp" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="bork" revision="ten" />
+
+ <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="bork" revision="r10.0" />
 </manifest>
 
