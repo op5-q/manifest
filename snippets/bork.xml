@@ -110,10 +110,10 @@
 
 
   <!-- System -->
-  <project path="system/bt" name="system_bt" remote="aosip" />
   <project path="system/core" name="platform_system_core" remote="bork" revision="ten" />
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
   <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="aosip" />
+  <project path="system/bt" name="platform_system_bt" remote="aosip" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="derp" />
   <project path="system/vold" name="platform_system_vold" remote="derp" />
@@ -131,7 +131,7 @@
 
   <!-- PixelExperience GApps and Mods -->
   <project path="vendor/gapps" name="mTresk/vendor_gapps" remote="gitlab" revision="android-10" clone-depth="1" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="bork" revision="ten" />
+  <project path="vendor/pixelstyle" name="platform_vendor_pixelstyle" remote="bork" revision="ten" />
 
  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="bork" revision="r10.0" />
 </manifest>
