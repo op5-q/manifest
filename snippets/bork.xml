@@ -24,7 +24,7 @@
   <!-- AOSiP -->
   <!-- General -->
   <project path="art" name="platform_art" remote="derp" />
-  <project path="bionic" name="platform_bionic" remote="derp" />
+  <project path="bionic" name="platform_bionic" remote="aosip" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="derp" />
 
   <!-- Build -->
