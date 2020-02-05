@@ -63,6 +63,7 @@
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
   <project path="external/toybox" name="platform_external_toybox" remote="aosip" />
   <project path="external/zlib" name="platform_external_zlib" remote="aosip" />
+  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="bork" revision="ten" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bork" revision="ten" />
