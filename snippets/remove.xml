@@ -67,7 +67,6 @@
   <remove-project name="platform/external/rapidjson" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/skia" />
-  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/zlib" />
@@ -138,7 +137,6 @@
   <remove-project name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <remove-project name="platform/prebuilts/r8" />
-  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/netd" />

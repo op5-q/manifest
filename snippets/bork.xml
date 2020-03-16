@@ -71,8 +71,8 @@
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="aosip" />
   <project path="frameworks/native" name="frameworks_native" remote="bork" revision="10" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="bork" revision="ten" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="derp" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="derp" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="bork" revision="ten"/>
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="bork" revision="ten" />
 
   <!-- Hardware -->
   <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="derp" />
@@ -112,7 +112,6 @@
   <project path="system/core" name="platform_system_core" remote="bork" revision="ten" />
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
   <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="aosip" />
-  <project path="system/bt" name="platform_system_bt" remote="aosip" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="derp" />
   <project path="system/vold" name="platform_system_vold" remote="derp" />
@@ -125,7 +124,6 @@
   <!-- DerpFest specific stuf -->
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bork" revision="ten" />
   <project path="system/netd" name="platform_system_netd" remote="derp" />
-  <project path="external/sqlite" name="platform_external_sqlite" remote="derp" />
   <project path="packages/apps/OmniRecord" name="platform_packages_apps_OmniRecord" remote="derp" />
 
   <!-- PixelExperience GApps and Mods -->
