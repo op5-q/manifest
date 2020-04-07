@@ -25,7 +25,7 @@
   <!-- General -->
   <project path="art" name="platform_art" remote="derp" />
   <project path="bionic" name="platform_bionic" remote="aosip" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="derp" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="bork" revision="ten" />
 
   <!-- Build -->
   <project path="build/blueprint" name="platform_build_blueprint" remote="aosip" />
@@ -48,7 +48,7 @@
   <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="derp" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="aosip" revision="ten-legacy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="aosip" revision="ten-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="bork" revision="ten" />
 
   <!-- External -->
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="aosip" />
@@ -130,12 +130,11 @@
   <project path="vendor/gapps" name="mTresk/vendor_gapps" remote="gitlab" revision="android-10" clone-depth="1" />
   <project path="vendor/pixelstyle" name="platform_vendor_pixelstyle" remote="bork" revision="ten" />
   <project path="vendor/google/customization" name="PixelExperience/vendor_google_customization" remote="github" revision="ten" />
- 
+
   <!-- Our theme stuff -->
-  <project path="vendor/themes" name="android_vendor_themes" remote="bork" revision="ten" /> 
+  <project path="vendor/themes" name="android_vendor_themes" remote="bork" revision="ten" />
   <project path="packages/apps/DU-Themes" name="packages_apps_DU-Themes" remote="bork" revision="ten" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bork" revision="ten" />
 
  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="bork" revision="r10.0" />
 </manifest>
-
