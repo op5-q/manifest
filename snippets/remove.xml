@@ -106,7 +106,6 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <!--remove-project name="platform/packages/apps/Music" /-->
   <remove-project name="platform/packages/apps/Nfc" />
-  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
@@ -144,6 +143,7 @@
   <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/apex" />
   <remove-project name="platform/test/mts" />
   <remove-project name="platform/test/vti/alert" />
   <remove-project name="platform/tools/ndkports" />

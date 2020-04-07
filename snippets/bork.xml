@@ -93,7 +93,6 @@
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="aosip" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
-  <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="aosip" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="aosip" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bork" revision="10" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosip" />
@@ -113,7 +112,7 @@
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
   <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="aosip" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="derp" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="bork" revision="ten" />
   <project path="system/vold" name="platform_system_vold" remote="derp" />
 
   <!-- Vendor -->
@@ -130,6 +129,7 @@
   <project path="vendor/gapps" name="mTresk/vendor_gapps" remote="gitlab" revision="android-10" clone-depth="1" />
   <project path="vendor/pixelstyle" name="platform_vendor_pixelstyle" remote="bork" revision="ten" />
   <project path="vendor/google/customization" name="PixelExperience/vendor_google_customization" remote="github" revision="ten" />
+  <project path="system/apex" name="PixelExperience/system_apex" remote="github" revision="ten" />
 
   <!-- Our theme stuff -->
   <project path="vendor/themes" name="android_vendor_themes" remote="bork" revision="ten" />
