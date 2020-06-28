@@ -108,7 +108,6 @@
 
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="bork" revision="ten" />
-  <project path="system/extras" name="platform_system_extras" remote="aosip" />
   <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="aosip" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/sepolicy" name="system_sepolicy" remote="bork" revision="ten" />
