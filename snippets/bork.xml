@@ -133,6 +133,7 @@
   <project path="vendor_support" name="vendor_support" remote="bork" revision="ten" />
 
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="bork" revision="master"/>
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="bork" revision="ten" />
 
  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="bork" revision="r10.0" />
 </manifest>
