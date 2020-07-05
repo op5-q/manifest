@@ -137,4 +137,7 @@
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="bork" revision="ten" />
 
  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="bork" revision="r10.0" />
+
+   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
+
 </manifest>
