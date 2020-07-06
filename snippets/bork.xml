@@ -26,7 +26,6 @@
            fetch="http://server.adhityamohan.in/poad42"/>
 
   <!-- General -->
-  <project path="art" name="platform_art" remote="derp" />
   <project path="bionic" name="platform_bionic" remote="aosip" />
   <project path="bootable/recovery" name="bootable_recovery" remote="bork" revision="ten" />
 
