@@ -138,6 +138,6 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="bork" revision="r10.0" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
-  <project path="external/pulse" name="DirtyUnicorns/android_external_pulse" remote="github" revision="q10x" />
+  <project path="external/pulse" name="external_pulse" remote="bork" revision="ten" />
 
 </manifest>
